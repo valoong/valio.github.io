@@ -1,9 +1,0 @@
-var $scroll = $('scroll');
-
-$scroll.waypoint(function (direction) {
-    if (direction == 'down'){
-    $scroll.addclass('fadeInDown');
-} else {
-    $scroll.removeClass('fadeInDown');
-}
-}, {offset: '50'});
