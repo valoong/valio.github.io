@@ -18,50 +18,49 @@ $(document).ready(function(){
 $(document).ready(function(){
  
   // hide our element on page load
+  $('#cam').css('opacity', 0);
+  $('#gra').css('opacity', 0);
+  $('#web').css('opacity', 0);
+    
+  $('#cam').waypoint(function(direction) {
+      if (direction == 'down'){
+      $('#cam').addClass('fadeIn');
+      $('#gra').addClass('fadeIn');
+      $('#web').addClass('fadeIn');
+      }
+      else{
+        $('#cam').removeClass('fadeIn');
+        $('#gra').removeClass('fadeIn');
+        $('#web').removeClass('fadeIn');
+
+      }
+  }, { offset: '75%' });
+ 
+});
+
+$(document).ready(function(){
+ 
+  // hide our element on page load
   $('#wm').css('opacity', 0);
+  $('#wm2').css('opacity', 0);
+  $('#wm3').css('opacity', 0);
     
   $('#wm').waypoint(function(direction) {
       if (direction == 'down'){
       $('#wm').addClass('fadeInLeft');
-      }
-      else{
-        $('#wm').removeClass('fadeInLeft');
-      }
-  }, { offset: '75%' });
- 
-});
-
-$(document).ready(function(){
- 
-  // hide our element on page load
-  $('#wm2').css('opacity', 0);
-    
-  $('#wm2').waypoint(function(direction) {
-      if (direction == 'down'){
       $('#wm2').addClass('fadeInLeft');
-      }
-      else{
-        $('#wm2').removeClass('fadeInLeft');
-      }
-  }, { offset: '75%' });
- 
-});
-
-$(document).ready(function(){
- 
-  // hide our element on page load
-  $('#wm3').css('opacity', 0);
-    
-  $('#wm3').waypoint(function(direction) {
-      if (direction == 'down'){
       $('#wm3').addClass('fadeInLeft');
       }
       else{
+        $('#wm').removeClass('fadeInLeft');
+        $('#wm2').removeClass('fadeInLeft');
         $('#wm3').removeClass('fadeInLeft');
       }
-  }, { offset: '90%' });
+  }, { offset: '75%' });
  
 });
+
+
 
 
 $(document).ready(function(){
@@ -104,3 +103,8 @@ $(document).ready(function(){
  
 });
 
+
+
+$(document).ready(function(){
+$('.parallax-window').parallax({imageSrc: 'photography/ban.jpg'});
+});
