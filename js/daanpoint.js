@@ -2,6 +2,22 @@
 $(document).ready(function(){
  
   // hide our element on page load
+  $('#pic').css('opacity', 0);
+    
+  $('#pic').waypoint(function(direction) {
+      if (direction == 'down'){
+      $('#pic').addClass('fadeIn');
+      }
+      else{
+        $('#pic').removeClass('fadeIn');
+      }
+  }, { offset: '50%' });
+ 
+});
+
+$(document).ready(function(){
+ 
+  // hide our element on page load
   $('#log').css('opacity', 0);
     
   $('#log').waypoint(function(direction) {

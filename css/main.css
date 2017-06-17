@@ -1,3 +1,75 @@
+img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.thumbnail img {
+  
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.gal{
+    position: relative;
+   top:80px;
+}
+.gallery {
+  
+  margin: 0 auto;
+  padding-bottom: 50px;
+   
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+ 
+}
+
+.gallery > div > img {
+  display: block;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+
 .caption {
   position: absolute;
   left: 0;
@@ -313,7 +385,7 @@ header {
     background-color: #dcdcdc;
     color: black;
     background-size: 100%, 100%;
-    min-height: 800px;
+    min-height: 900px;
 }
 .imgbg {
      background-color: white;
@@ -325,6 +397,14 @@ header {
 .imgwh {
     background-color: white;
     min-height: 500px;
+    background-size: 100%, 100%;
+    
+    
+}
+.imggr {
+    padding-top: 100px;
+    background-color: white;
+    min-height: 800px;
     background-size: 100%, 100%;
     
     
@@ -371,4 +451,12 @@ header {
 h3{
     font-size: 20px !important;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 
