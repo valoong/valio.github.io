@@ -376,7 +376,7 @@ header {
 .padding {
      background-color: white;
     /*  background-image: url("../logo/wm.jpg") ; */
-    min-height: 100%;
+      min-height: 800px;
      background-size: 100%, 100%;
     
 }
