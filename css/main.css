@@ -390,8 +390,8 @@ header {
 .imgbg {
      background-color: white;
     /*  background-image: url("../logo/wm.jpg") ; */
-    min-height: 800px;
-     background-size: 15%, 15%;
+    min-height: 100%;
+     background-size: cover;
     
 }
 .imgwh {
