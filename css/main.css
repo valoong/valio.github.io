@@ -217,10 +217,8 @@ a:visited {
 
 body {
     margin: 0;
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-
+    scroll-snap-type: both mandatory;
+  overflow: scroll;
 }
 header {
     position:relative ;
@@ -231,6 +229,7 @@ header {
     overflow: hidden ;
 
 }
+
 .header-bg {
     position: relative;
     width:100%;
@@ -406,7 +405,7 @@ header {
     /*  background-image: url("../logo/wm.jpg") ; */
     min-height: 800px;
      background-size: 15%, 15%;
-    
+    scroll-snap-align: start;
 }
 .imgwh {
     background-color: white;

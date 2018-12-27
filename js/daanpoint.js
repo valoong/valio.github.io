@@ -81,6 +81,8 @@ $(document).ready(function(){
 
 
 
+
+
 $(document).ready(function(){
  
   // hide our element on page load
