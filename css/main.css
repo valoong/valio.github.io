@@ -217,6 +217,9 @@ a:visited {
 
 body {
     margin: 0;
+     scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
 
 }
 header {
@@ -258,7 +261,7 @@ header {
     font-family: "Times New Roman", Times, serif;
 }
 .logoalign{
-    padding:110px 0;
+    padding:200px 0;
     z-index: -1;
 }
 .logo, .logo2,{
@@ -377,18 +380,24 @@ header {
    
 }
 .padding {
-     background-color: white;
-    /*  background-image: url("../logo/wm.jpg") ; */
-    min-height: 700px;
-     background-size: 15%, 15%;
+    height:100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    scroll-snap-align: start;
     
 }
 .aboutme{
-    padding: 50px 0;
+  
     background-color: #dcdcdc;
     color: black;
-    background-size: 100%, 100%;
-    min-height: 800px;
+     height:100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    scroll-snap-align: start;
 }
 .imgbg {
      background-color: white;
