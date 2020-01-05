@@ -276,7 +276,7 @@ header {
    padding: 20px 0;
     height: 250px;
     width: 250px;
-    animation-delay: 0.1s;
+    animation-delay: 0.5s;
 }
 .cam, .gra, .web{
      -webkit-animation-duration: 1s;
