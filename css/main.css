@@ -262,6 +262,8 @@ header {
 .logoalign{
     padding:200px 0;
     z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo, .logo2,{
      -webkit-animation-duration: 0s;
@@ -278,10 +280,7 @@ header {
     width: 250px;
     animation-delay: 0.5s;
 }
-IMG.logo, .logo2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
+
 .cam, .gra, .web{
      -webkit-animation-duration: 1s;
     -webkit-animation-delay: 0.3s;
