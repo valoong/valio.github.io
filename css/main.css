@@ -268,15 +268,15 @@ header {
     -webkit-animation-delay: 0.5s;
 }
 .logo{
-    height: 200px;
-    width: 200px;   
-    animation-delay: 0.5s;
+    height: 250px;
+    width: 250px;   
+    animation-delay: 0.1s;
 }
 .logo2{
    padding: 20px 0;
-    height: 200px;
-    width: 200px;
-    animation-delay: 0.5s;
+    height: 250px;
+    width: 250px;
+    animation-delay: 0.1s;
 }
 .cam, .gra, .web{
      -webkit-animation-duration: 1s;
@@ -384,6 +384,7 @@ header {
     height:100vh;
     width: 100%;
     -webkit-background-size: cover;
+    background-image: url("../background/splashBG.jpg") ;
     background-size: cover;
     position: relative;
     scroll-snap-align: start;
