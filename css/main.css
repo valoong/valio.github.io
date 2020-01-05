@@ -278,6 +278,10 @@ header {
     width: 250px;
     animation-delay: 0.5s;
 }
+IMG.logo, .logo2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 .cam, .gra, .web{
      -webkit-animation-duration: 1s;
     -webkit-animation-delay: 0.3s;
