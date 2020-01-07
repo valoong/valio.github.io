@@ -259,8 +259,9 @@ header {
 
 }
 .aboutmetext{
-    top: 33px;
-   position: absolute; 
+    padding-bottom: : 200px 0;
+    position: relative;
+    
    }
 .logoalign{
     padding:200px 0;
