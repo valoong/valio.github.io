@@ -30,8 +30,8 @@ img{
    top:120px;
 }
 .pad{
-  padding-top: 30px;
-}
+ /* padding-top: 100px;
+*/}
 .gallery {
   
   margin: 0 auto;
@@ -254,17 +254,22 @@ header {
     font-family: helvetica;
     }
 .me{
-     padding: 10px 0;
-    height: 250px;
-    width: 250px;
-    font-family: "Times New Roman", Times, serif;
+    padding-bottom: : 50%;
+    width: 97.5%;
+   height: 97.5%;
+    
 }
 .logoalign{
     padding:200px 0;
     z-index: -1;
-    margin-left: auto;
-    margin-right: auto;
+   /* margin-left: auto;
+    margin-right: auto; */
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .logo, .logo2,{
      -webkit-animation-duration: 0s;
     -webkit-animation-delay: 0.5s;
@@ -373,9 +378,11 @@ header {
     background-color:#909090 !important;
 }
 
+.bar{
+    padding: 50px;
+}
 
-
-.imgbg, .imgbgbar, .imgbg2, .imgbg3, .imgbg4{
+.padding, .imgbg, .imgbgbar, .imgbg2, .imgbg3, .imgbg4{
 
     
     background-attachment: fixed;
@@ -386,8 +393,8 @@ header {
 .padding {
     height:100vh;
     width: 100%;
+    background-image: url("../background/splashBW.jpg") ;
     -webkit-background-size: cover;
-    background-image: url("../background/splashBG.jpg") ;
     background-size: cover;
     position: relative;
     scroll-snap-align: start;
@@ -397,12 +404,12 @@ header {
   
     background-color: #dcdcdc;
     color: black;
-     height:100vh;
+     height:70vh;
     width: 100%;
-    -webkit-background-size: cover;
-    background-size: cover;
+    /* -webkit-background-size: cover;
+    background-size: cover; */
     position: relative;
-    scroll-snap-align: start;
+    /*scroll-snap-align: start; */
 }
 .imgbg {
      background-color: white;
