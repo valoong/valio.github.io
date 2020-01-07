@@ -256,7 +256,12 @@ header {
 .me{
    top: 33px;
    position: absolute;
+
 }
+.aboutmetext{
+    top: 33px;
+   position: absolute;
+   }
 .logoalign{
     padding:200px 0;
     z-index: -1;
