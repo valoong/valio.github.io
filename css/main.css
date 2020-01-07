@@ -254,10 +254,8 @@ header {
     font-family: helvetica;
     }
 .me{
-    padding-bottom: : 50%;
-    width: 97.5%;
-   height: 97.5%;
-    
+   top: 33px;
+   position: absolute;
 }
 .logoalign{
     padding:200px 0;
@@ -275,8 +273,8 @@ header {
     -webkit-animation-delay: 0.5s;
 }
 .logo{
-    height: 250px;
-    width: 250px;  
+    height: 200px;
+    width: 200px;  
     animation-delay: 0.1s;
 }
 .logo2{
